@@ -1,0 +1,91 @@
+.menu {
+    height: 48rem;
+    width: 25rem;
+    justify-content: center;
+    background-color: #fefefe;
+    border: #cccc;
+    border-width: 1px;
+    border-style: solid;
+    .menu-title {
+        background-color: green;
+        height: 4rem;
+        width: 100%;
+        h3 {
+            padding-top: 1rem;
+            color: #fff;
+            text-align: center;
+            font-weight: bold; 
+        }
+    }
+    .menu-select {
+        padding-left: 20px;
+        padding-right: 20px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        overflow: hidden;
+    }
+    select {
+        width: 23rem;
+        height: 60px;
+        border-radius: 5px;
+        padding-left: 25px;
+        padding-right: 20px;
+
+    }
+    .price {
+        padding-top: 1rem;
+        .name {
+            padding-left: 10px;
+            font-size: 16px;
+        }
+    }
+    .are {
+        padding-top: 1rem;
+        .name {
+            padding-left: 10px;
+            font-size: 16px;
+        }
+    }
+    .search {
+        margin-left: 20px;
+        padding-top: 25px;
+        padding-bottom: 5px;
+        margin-top: 10px;
+        background-color: #ededed;
+        text-align: center;
+        margin-right: 20px;
+        border-radius: 10px;
+        color:#94a2a7;
+        // :hover {
+        //     background-color: red;
+        // }
+    }
+
+    
+}
+
+
+.noUi-horizontal {
+    height: 15px;
+    .noUi-handle {
+        width: 20px;
+        height: 20px;
+        left: -10px;
+        top: -4px;
+        border-radius: 30px;
+    }
+}
+.noUi-target {
+    width: 22rem;
+    margin-left: 20px;
+    
+}
+.noUi-connect {
+    background:  #75b08a;
+    box-shadow: inset 0 0 3px rgba(51,51,51,.45);
+    -webkit-transition: background 450ms;
+    transition: background 450ms;
+}

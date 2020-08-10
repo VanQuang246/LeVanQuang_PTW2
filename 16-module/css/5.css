@@ -1,0 +1,109 @@
+.menu #triangle-up {
+  position: absolute;
+  width: 0px;
+  height: 0px;
+  border-left: 50px solid transparent;
+  border-right: 50px solid transparent;
+  border-bottom: 50px solid white;
+  border-top: 50px solid transparent;
+  transform: rotate(-45deg);
+  padding-top: -47px;
+  margin-top: -50px;
+  margin-left: -50px; }
+  .menu #triangle-up i {
+    margin-left: -10px;
+    margin-top: 17px; }
+.menu .table {
+  margin-top: 3px;
+  margin-bottom: 3px; }
+  .menu .table th {
+    border-top: none; }
+  .menu .table img {
+    width: 100%;
+    height: 100%; }
+  .menu .table .content-name {
+    font-size: 16px;
+    font-weight: bold; }
+  .menu .table .rating {
+    position: fixed;
+    right: 52%;
+    margin-top: 10px;
+    width: 100px;
+    height: 25px;
+    background-color: black;
+    text-align: center;
+    color: lavender; }
+  .menu .table .rating1 {
+    position: fixed;
+    right: 13%;
+    margin-top: 10px;
+    width: 100px;
+    height: 25px;
+    background-color: black;
+    text-align: center;
+    color: lavender; }
+  .menu .table td {
+    width: 33%;
+    border-top: none;
+    padding: 0.6rem; }
+    .menu .table td .body-td {
+      display: flex;
+      justify-content: center;
+      align-items: center; }
+      .menu .table td .body-td .name {
+        font-weight: bold; }
+  .menu .table .name-td {
+    background-color: #cecece; }
+  .menu .table .mss-td {
+    background-color: #f0e797;
+    color: #C1B547;
+    font-weight: bold; }
+  .menu .table .body-more {
+    background-color: #f0e797;
+    color: #C1B547; }
+  .menu .table .fa {
+    font-size: 18px;
+    color: green; }
+  .menu .table span {
+    font-size: 14px;
+    padding-left: 5px; }
+
+@media (min-width: 768px) and (max-width: 1023px) {
+  .menu .table .rating {
+    position: fixed;
+    right: 52%;
+    margin-top: 10px;
+    width: 100px;
+    height: 25px;
+    background-color: black;
+    text-align: center;
+    color: lavender; }
+  .menu .table .rating1 {
+    position: fixed;
+    right: 18%;
+    margin-top: 10px;
+    width: 100px;
+    height: 25px;
+    background-color: black;
+    text-align: center;
+    color: lavender; } }
+
+@media (min-width: 1023px) {
+  .menu .table .rating {
+    position: fixed;
+    right: 52%;
+    margin-top: 10px;
+    width: 100px;
+    height: 25px;
+    background-color: black;
+    text-align: center;
+    color: lavender; }
+  .menu .table .rating1 {
+    position: fixed;
+    right: 23%;
+    margin-top: 10px;
+    width: 100px;
+    height: 25px;
+    background-color: black;
+    text-align: center;
+    color: lavender; } }

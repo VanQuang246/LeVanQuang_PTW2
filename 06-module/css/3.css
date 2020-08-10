@@ -1,0 +1,37 @@
+.menu .menu-point {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center; }
+  .menu .menu-point .point {
+    width: 5rem;
+    height: 5rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-around; }
+    .menu .menu-point .point .point-tick {
+      width: 10px;
+      height: 10px;
+      padding: 5px;
+      border-radius: 50%; }
+.menu .avatar {
+  display: flex;
+  align-items: center;
+  justify-content: center; }
+  .menu .avatar img {
+    width: 100px;
+    height: 100px;
+    border-radius: 100px; }
+  .menu .avatar .avatar-name {
+    margin-left: 1.4rem; }
+    .menu .avatar .avatar-name .name {
+      text-align: left;
+      font-size: 20px; }
+    .menu .avatar .avatar-name .sub-name {
+      text-align: left;
+      font-size: 16px;
+      font-style: italic; }
+.menu .footer {
+  display: flex;
+  padding-top: 3rem;
+  justify-content: space-between; }
